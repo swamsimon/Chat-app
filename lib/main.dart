@@ -15,7 +15,7 @@ class MyChatApp extends StatelessWidget {
       theme: ThemeData().copyWith(
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 3, 211, 190)),
       ),
-      home: AuthScreen(),
+      home: const AuthScreen(),
     );
   }
 }
